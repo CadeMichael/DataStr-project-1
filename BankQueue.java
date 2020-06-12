@@ -51,8 +51,7 @@ public class BankQueue<I extends Entry>{
   
   /** head holds the first value in the linked list */
   private Node<I> head;
-  /** rear holds the 
-    * last value in the linked list */
+  /** rear holds the last value in the linked list */
   private Node<I> rear;
   /** id holds the Nth number of the items added to the linked list */
   private int id = 0;
@@ -64,7 +63,7 @@ public class BankQueue<I extends Entry>{
     this.head = null;
     this.rear = null;
   }
-  // make a tail
+
   /** 
    * adds an item to the queue setting its id to the size of the queue
    * @param item holds the entry being added to the queue
